@@ -35,8 +35,7 @@ def main(page: ft.Page):
         url = f"https://receitaws.com.br/v1/cnpj/{cnpj}/days/{days}"
         headers = {
             "Accept": "application/json",
-            "Authorization": "Bearer 254bc53c671de0b84fe877fdfcc6211908d1e7a1087336b0fbf37824e74fee8c"
-        }
+            "Authorization": " API     }
         try:
             response = requests.get(url, headers=headers, timeout=10)
             if response.status_code == 200:
