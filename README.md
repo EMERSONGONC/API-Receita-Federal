@@ -12,7 +12,7 @@ Este projeto realiza a consulta de múltiplos CNPJs pela ReceitaWS via API e exp
 ## 📦 Requisitos
 
 - Python 3.9+
-- Chave da API ReceitaWS (colocada no `.env`)
+- Chave da API ReceitaWS 
 - Instalar dependências:
 
 ```bash
